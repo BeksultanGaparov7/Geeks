@@ -1,5 +1,3 @@
-'''Разболкируйте в ТГ мне надо ссылку на Гит Хаб отправить!!!!'''
-
 class Aplicase:
     def turn_on(self):
         pass
@@ -40,15 +38,12 @@ class Refrigerator(Aplicase):
     def repair(self):
         print('Ремонт холодильника')
 
-class Message:
-    def print(self):
-        print('Да ПЖ разблокируйте! В ТГ')
-        print('Я больше не буду, не знал я!')
+
 
 wm = WashingMachine()
 mv = Microwave()
 rf = Refrigerator()
-m = Message()
+
 
 wm.use()
 wm.repair()
@@ -56,7 +51,7 @@ mv.use()
 mv.repair()
 rf.use()
 rf.repair()
-m.print()
+
 
 
 
