@@ -34,5 +34,5 @@ class User:
 a = User()
 a.add_user('Gaparov Beksultan', 12, 7)
 a.get_user_info('1')
-a.delete_user('1')
+
 
